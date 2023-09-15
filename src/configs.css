@@ -1,0 +1,206 @@
+nav{
+  height: 90px;
+  line-height: 90px;
+}
+
+nav i, nav[class^="mdi-"], nav[class*="mdi-"], nav i.material-icons{
+  height: 90px;
+  line-height: 90px;
+}
+
+body{
+  display: flex ;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main{
+  flex: 1 0 auto;
+}
+
+.texto{
+  text-align: justify;
+}
+
+.indent{
+  text-indent: 2em;
+}
+
+h5{
+  font-size: 1.4em;
+}
+
+h4{
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+h3{
+  font-size:1.6em;
+}
+
+h2{
+  font-size:1.4em;
+}
+
+p{
+  font-size:1.25em;
+  text-align: justify;
+}
+
+.big{
+  font-size:1.2em;
+}
+
+.bold{
+  font-weight: bold !important;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.right-align{
+  text-align: right;
+}
+
+.file-field input[type="file"]{
+  color: #9E9E9E;
+}
+
+
+/*configuração dos botões e links*/
+
+.btn-b, .btn-b:active, .btn-b:visited, .btn-b:after, .btn-b:focus{
+  padding:0% !important;
+  margin: 0% !important;
+  border: 0px !important;
+  background-color: white !important;
+  color: #26a69a !important;
+  text-align: left;
+}
+
+.btn-floating, button, a, .btn_a{
+  background-color: #26a69ac0;
+}
+
+.btn-floating:hover, button:hover, a:hover, .btn_a:hover{
+  background-color: #26a69a;
+}
+
+.btn-floating:active, button:active, a:active, .btn_a:active{
+  background-color: #26a69ac0;
+}
+
+.btn-floating:visited, button:visited, a:visited, .btn_a:visited{
+  background-color: #26a69ac0;
+}
+
+.btn-floating:focus, button:focus, a:focus, .btn_a:focus{
+  background-color: #26a69ac0 !important;
+}
+
+/*configuração dos inputs*/
+
+.input-field input[type=text]:valid + label{
+  color: #9E9E9E !important;
+  border-color: #9E9E9E !important;
+}
+
+input[type=text].invalid{
+  border-bottom: 1px solid #9E9E9E !important;
+  box-shadow: 0 1px 0 0 #9E9E9E !important;
+}
+
+textarea:valid + label{
+  color: #9E9E9E !important;
+  border-color: #9E9E9E !important;
+}
+
+.input-field input[type=text]:valid, textarea:focus {
+  border-bottom: 1px solid #9E9E9E !important;
+  box-shadow: 0 1px 0 0 #9E9E9E !important;
+}
+
+ .input-field label{
+  color: #9E9E9E;
+}
+
+.input-field input[type=text]:focus + label{
+  color: #26a69a !important;
+  border-color: #26a69a !important;
+}
+
+textarea:focus + label{
+  color: #26a69a !important;
+  border-color: #26a69a !important;
+}
+
+.input-field input[type=text]:focus, textarea:focus {
+  border-bottom: 1px solid #26a69a !important;
+  box-shadow: 0 1px 0 0 #26a69a !important;
+}
+
+.file-path-wrapper{
+  color: #9E9E9E;
+}
+
+.input-field input[type=date]:focus + label{
+  color: #26a69a !important;
+  border-color: #26a69a !important;
+}
+
+.input-field input[type=date]:focus{
+  border-bottom: 1px solid #26a69a !important;
+  box-shadow: 0 1px 0 0 #26a69a !important;
+}
+
+[type="radio"]:checked+label:after{
+  background-color: #26a69a;
+  border: 2px solid #26a69a;
+}
+[type="radio"]:checked+label {
+  color: #000;
+}
+
+input[type=password]:focus, input[type=password].valid:focus, input[type=password].invalid:focus{
+  border-color: #26a69a !important;
+  box-shadow: 0 1px 0 0 #26a69a !important;
+}
+input[type=email]:focus, input[type=email].valid:focus, input[type=email].invalid:focus{
+  border-color: #26a69a !important;
+  box-shadow: 0 1px 0 0 #26a69a !important;
+}
+
+input[type=password]{
+  border-bottom: 1px solid #9E9E9E !important;
+  border-color: #9E9E9E !important;
+  box-shadow: 0 1px 0 0 #9E9E9E !important;
+}
+input[type=email]{
+  border-bottom: 1px solid #9E9E9E !important;
+  border-color: #9E9E9E !important;
+  box-shadow: 0 1px 0 0 #9E9E9E !important;
+}
+
+input[type=password].invalid{
+  border-bottom: 1px solid #9E9E9E !important;
+  border-color: #9E9E9E !important;
+  box-shadow: 0 1px 0 0 #9E9E9E !important;
+}
+input[type=email].invalid{
+  border-bottom: 1px solid #9E9E9E !important;
+  border-color: #9E9E9E !important;
+  box-shadow: 0 1px 0 0 #9E9E9E !important;
+}
+
+input[type=password].valid{
+  border-bottom: 1px solid #9E9E9E !important;
+  border-color: #9E9E9E !important;
+  box-shadow: 0 1px 0 0 #9E9E9E !important;
+}
+input[type=email].valid{
+  border-bottom: 1px solid #9E9E9E !important;
+  border-color: #9E9E9E !important;
+  box-shadow: 0 1px 0 0 #9E9E9E !important;
+}
